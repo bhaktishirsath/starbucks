@@ -1,0 +1,138 @@
+
+body{
+    margin: 20px;
+     padding: 0px;
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    border: 2px green groove;
+    border-radius: 10px;
+}
+.main-div{
+
+    width: 500px;
+    height: 500px;
+     margin: 20px;
+     padding: 0px;
+
+}
+.logo{
+    height: 100%;
+    width: 96%;
+    padding: 0 10px;
+    margin: 0;
+    box-shadow: 2px 2px 3px grey;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    padding: 0 10px;
+
+}
+.Title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Title p{
+    /* margin: 5px 10px 10px 5px;
+    text-align: left; */
+}
+.Title .sp{
+    padding: 0 5px;
+    margin: 5px 10px 10px 5px;
+    color: green;
+}
+.form {
+    
+   text-align: center;
+    
+}
+.form #d1{
+    height: 30px;
+    width: 250px;
+    align-content: center;
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.form #d2{
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.info{
+    text-align: center;
+    display: flex;
+    position: absolute;
+    left: 20%;
+    
+}
+.info .chec input{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: black;
+    
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+#checkbox{
+    text-decoration: none;
+    
+    border: none;
+    background-color: green;
+
+}
+.link a{
+    /* text-decoration: none; */
+    font-size: 1rem;
+    font-weight: bold;
+     color: rgb(2, 73, 2);
+}
+
+.Forget{
+    text-align: center;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+
+}
+.Forget a{
+
+    color: rgb(2, 68, 2);
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.Allinf{
+    text-align: center;
+    color: rgb(2, 84, 2);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.Allinf p{
+    color: black;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+input[type=submit]{
+    height: 40px;
+    width: 250px;
+    align-content: center;
+    padding: 5px;
+    margin: 15px;
+    border: 2px solid rgb(244, 238, 238);
+    border-radius: 10px;
+    /* position: absolute;
+    padding: 5px;
+    top: 65%;
+    left: 30%; */
+    color: aliceblue;
+    background-color: rgb(2, 103, 2);
+}

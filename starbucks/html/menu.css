@@ -1,0 +1,247 @@
+body{
+   margin: 0px;
+     padding: 0px;
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+  
+    background-color: rgb(246, 242, 236);
+}
+.Nav-bar{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    box-shadow: 4px 4px 4px rgb(204, 204, 204);
+    
+}
+.logo{
+   
+    margin-bottom: 5px;
+     padding: 10px;
+     margin-left: 5px;
+     display: flex;
+     /* height: 100%;
+     width: 100%; */
+ }
+ .logo img{
+     margin: 10px;
+     height: 40px;
+     width: 40px;
+ }
+ 
+ 
+.Starbucks{
+    color: rgb(2, 48, 2);
+ text-align: center;
+    /* text-decoration:underline; */
+}
+.Star_nav{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    
+    /* background-color: rgb(2, 48, 2); */
+    color: aliceblue;
+    height: 65px;
+    width: 100%;
+}
+.Star_nav .name{
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+/* menu */
+.Star_nav{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 48, 2);
+}
+.Star_nav .name button{
+    background-color: rgb(2, 48, 2);
+    border: none;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+
+}
+.MenuCard{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+
+}
+
+.MenuCard  .Row1 .Info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px  ;
+    height: 250px;
+   width: 400px;
+   border: 2px solid rgb(181, 179, 179);
+   border-radius: 20px;
+   box-shadow: 2px 2px 3px rgb(183, 182, 182);
+   /* position: relative; */
+
+}
+.MenuCard  .Row1 .Info img{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+
+     margin-bottom: 20px;
+
+}
+.MenuCard .Info .icons {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  
+}
+
+/*  */
+.MenuCard .Info .icons #i{
+    width: 200px;
+  height: 100px;
+  /* position: absolute;
+  top: 400px;
+  left: 300px; */
+}
+.icons .name1{
+    color: rgb(2, 48, 2);
+    text-align: center;
+
+}
+.name1 button{
+    background-color: rgb(2, 48, 2);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    position: absolute;
+    top: 310px;
+    left: 250px;
+
+}
+.menu_disp{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 430px;
+    flex-wrap: wrap;
+}
+.menulist{
+    width: 300px;
+    height: 180px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+   display: flex;
+   
+   gap: 10px;
+   box-shadow: 2px 2px 3px grey;
+   border-radius: 20px;
+   
+}
+.menulist img{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+}
+.menulist p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+
+}
+.di{
+/* display: flex; */
+flex-direction: column;
+gap: 2px; 
+}
+
+    
+.menulist  button {
+    
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: rgb(2, 67, 2);
+    color: white;
+    border: none;
+    /* position: absolute;
+    top: 140px;
+    left: 250px; */
+}
+
+/* row2 */
+.MenuCard{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.MenuCard  .Row2 .Info1{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px  ;
+    height: 250px;
+   width: 400px;
+   border: 2px solid rgb(181, 179, 179);
+   border-radius: 20px;
+   box-shadow: 2px 2px 3px rgb(183, 182, 182);
+   /* position: relative; */
+
+}
+.MenuCard  .Row2 .Info1 img{
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 550px;
+    left: 20px;
+    border-radius: 50%;
+     margin-bottom: 20px;
+
+}
+.MenuCard .Info1 .icons1 {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  
+}
+.MenuCard .Info1 .icons1 #i1{
+    width: 200px;
+  height: 100px;
+  /* position: absolute;
+  top: 400px;
+  left: 300px; */
+}
+.icons1 .name2{
+    color: rgb(2, 48, 2);
+    text-align: center;
+
+}
+.name2 button{
+    background-color: rgb(2, 48, 2);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    position: absolute;
+    top: 570px;
+    left: 250px;
+
+}

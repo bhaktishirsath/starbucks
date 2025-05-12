@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="Main-div">
+        <div class="logo">
+            <img src="/images/logo.png" alt="">
+            
+        </div>
+        
+        <div class="Title">
+            <h1>Sign in or Create an account</h1>
+            <p><span class="sp">*</span> indicates required field</p>
+        </div>
+        <div class="form">
+            <form action="" name="myform" onsubmit="return Validation()">
+
+                <input type="text" id="d1" name="user" placeholder=" Enter user-id or email"> 
+                <span id="s1"></span>
+                <br><br>
+            
+                <input type="password" id="d2" name="password" placeholder="enter password">  <br><br>
+             
+
+                
+                   
+                       <input type="checkbox" name="checkbox" id="checkbox1">
+                 
+                   <h3 id="display" style="color: black;"></h3>
+                 <h3 id="error" style="color:green;"></h3>
+                 <div class="inf">Keep me signed in.</div>
+                 <div class="link"><a href="#">Details</a></div>
+                  <input type="submit" value="Sign-In">
+           
+            
+<br>
+           
+        </form>
+    </div>
+    
+
+    <!-- Forget -->
+     <div class="Forget">
+        <a href="#">Forget your  username?</a>
+        <a href="#">Forget your  password?</a>
+     </div>
+<br><br><br><br>
+     
+
+      <div class="Allinf">
+
+        <h5>JOIN STARBUCKS REWARDS</h5>
+        <P>Join Starbucks Rewards to earn free food and drinks ,get free refills ,pay and order with your phone,and more.</P>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script>
+
+        function Validation()
+        {var name= document.myform.user.value;
+          // console.log(name);
+          var password =document.myform.password.value;
+          var c=document.querySelector('input[name="checkbox"]:checked');
+
+                     if(name==null  || name=="")
+                     {
+                      //   alert("plz enter name...")
+                document.getElementById("d1").style.border="3px solid red";
+                 document.getElementById("s1").innerHTML="*requird";
+                 document.getElementById("s1").style.color="red";
+                        return false;
+                     }else
+                     if(password.length<8)
+                     {
+                       alert("password must be at least 8 charecter");
+                       return false;
+                     }
+                     else if(document.getElementById("checkbox1").checked){
+              
+                      document.getElementById("display").innerText=document.getElementById("checkbox1").value;
+                      return false;
+                  }
+                  else{
+                      document.getElementById("error").innerHTML="You have not selected option";
+                      alert("You have not selected option")
+                 
+                  }
+                  
+
+        }
+          
+  </script>
+  
+</body>
+</html>
